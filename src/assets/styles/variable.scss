@@ -1,0 +1,28 @@
+/* auth: 陈希
+ * desc: https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+ * * * * 只是scss与js公用变量，在.vue中还是得@import下
+ * * * * npm install sass-resources-loader 去这个官网看下，有法子全局调sass-resources-loader!
+ */
+
+//sidebar
+$menuBg:#0D0E0F;
+$subMenuBg:#23262E;
+$menuHover:#434A50;
+// 导航、按钮色
+$navBackground: #23262E;
+
+// 菜单颜色控制
+$icon: #fff;
+$menuText: #fff;
+$menuTextActive: #FFBD2F;
+$menuBackground: #1F2129;
+$menuBackgroundActive: rgba(255, 189, 47, 0.4);
+$btnPrimary: #FFBD2F;
+
+
+:export {
+  menuText: $menuText;
+  menuBackground: $menuBackground;
+}
+
+
